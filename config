@@ -1,0 +1,13 @@
+[merge]
+        conflictStyle = zdiff3
+[fetch]
+        prune = true
+        pruneTags = true
+[diff]
+        colorMoved = zebra
+[pull]
+        ff = only
+[core]
+        autocrlf = input
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
