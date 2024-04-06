@@ -11,3 +11,4 @@ then
 	printf "Please remove all occurrences of ${SEARCH_TERM} before committing.\n"
 	exit 1
 fi
+
